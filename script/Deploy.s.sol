@@ -19,6 +19,6 @@ contract ZDPScript is Script {
 
         vm.stopBroadcast();
 
-        // console.log("ZDP deployed to:", address(zdp));
+        console.log("ZDP deployed to:", address(zdp));
     }
 }
